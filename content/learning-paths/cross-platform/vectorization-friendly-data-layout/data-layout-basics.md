@@ -134,7 +134,7 @@ Run the program:
 ./simulation1 
 ```
 
-The `elapsed time` is printed. Depending on your hardware, the printed value may may be different.
+The `elapsed time` is printed. Depending on your hardware, the printed value may be different.
 
 ```output
 elapsed time: 14.605558
