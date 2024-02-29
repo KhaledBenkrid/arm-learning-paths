@@ -218,7 +218,7 @@ Here are some rules for optimal performance with SIMD/vectorized code:
 * Data should be consecutive, prefer struct of arrays instead of arrays of structs
 * Try to keep the data as packed as possible, no wasted elements in the vectors
 
-So far you have been using Neon/ASIMD instructions, but newer Arm processors also offer the Scalable Vector Extension (SVE). 
+So far you have been using Neon/SIMD instructions, but newer Arm processors also offer the Scalable Vector Extension (SVE). 
 
 Proceed to the next section to find out how to use SVE and compare the performance with NEON.
 
