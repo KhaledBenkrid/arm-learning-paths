@@ -158,7 +158,7 @@ position(post): 0.000000 10.000096 -9.360365 1.039151
 So, apparently your particle has exceeded the boundary box in the `z` axis (3rd element in the vector, counting from the right for Little Endian).
 
 {{% notice Note %}}
-The representation is in Little Endian mode, to correspond with memory layout, so element order is: 3, 2, 1, 0)
+The representation is in Little Endian mode, to correspond with memory layout, so element order is: 3, 2, 1, 0
 {{% /notice %}}
 
 You should expect the masks to show that accordingly:
